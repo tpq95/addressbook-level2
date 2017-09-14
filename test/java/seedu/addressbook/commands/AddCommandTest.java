@@ -57,15 +57,15 @@ public class AddCommandTest {
         }
     }
 
-/*    @Test
+    @Test
     public void addCommand_invalidBirthday_throwsException() {
-        final String[] invalidDates = { "", " ", "1234-5678", "[]\\[;]", "abc", "a123", "+651234" };
+        final String[] invalidBirthday = { "", " ", "1234-5678", "[]\\[;]", "abc", "a123", "+651234" };
         for (String birthday : invalidBirthday) {
             assertConstructingInvalidAddCmdThrowsException(Name.EXAMPLE, Phone.EXAMPLE, false, Email.EXAMPLE, true,
-                    birthday, Address.EXAMPLE, false, EMPTY_STRING_LIST);
+                    birthday, true, Address.EXAMPLE, false, EMPTY_STRING_LIST);
         }
     }
-*/
+
     @Test
     public void addCommand_invalidAddress_throwsException() {
         final String[] invalidAddresses = { "", " " };

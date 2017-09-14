@@ -119,7 +119,7 @@ public class StorageFileTest {
         ab.addPerson(new Person(new Name("Betsy Crowe"),
                                 new Phone("1234567", true),
                                 new Email("betsycrowe@gmail.com", false),
-                                new Birthday("02021992", false),
+                                new Birthday("10101990", false),
                                 new Address("Newgate Prison", true),
                                 new UniqueTagList(new Tag("friend"), new Tag("criminal"))));
         return ab;
