@@ -67,13 +67,13 @@
 || Enter command: || [Command entered:  add Valid Name p/12345 e/valid@email.butNoBirthdayPrefix 01011991 a/valid, address]
 || Invalid command format!
 || add: Adds a person to the address book. Contact details can be marked private by prepending 'p' to the prefix.
-|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]BIRTHDAY [p]a/ADDRESS  [t/TAG]...
+|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]b/BIRTHDAY [p]a/ADDRESS  [t/TAG]...
 || Example: add John Doe p/98765432 e/johnd@gmail.com b/01011990 a/311, Clementi Ave 2, #02-25 t/friends t/owesMoney
 || ===================================================
 || Enter command: || [Command entered:  add Valid Name p/12345 e/valid@email.butNoAddressPrefix b/01011991 valid, address]
 || Invalid command format! 
 || add: Adds a person to the address book. Contact details can be marked private by prepending 'p' to the prefix.
-|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]BIRTHDAY [p]a/ADDRESS  [t/TAG]...
+|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]b/BIRTHDAY [p]a/ADDRESS  [t/TAG]...
 || Example: add John Doe p/98765432 e/johnd@gmail.com b/01011990 a/311, Clementi Ave 2, #02-25 t/friends t/owesMoney
 || ===================================================
 || Enter command: || [Command entered:  add Valid Name p/12345 e/valid@email.butNoTagPrefix b/01011991 a/valid, address t/goodTag noPrefixTag]
@@ -99,7 +99,7 @@
 || 
 || 1 persons listed!
 || ===================================================
-|| Enter command: || [Command entered:  add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg b/02021992 pa/222, beta street t/secretive]
+|| Enter command: || [Command entered:  add Betsy Choo pp/222222 pe/benchoo@nus.edu.sg pb/02021992 pa/222, beta street t/secretive]
 || New person added: Betsy Choo Phone: (private) 222222 Email: (private) benchoo@nus.edu.sg Birthday: (private) 02021992 Address: (private) 222, beta street Tags: [secretive]
 || ===================================================
 || Enter command: || [Command entered:  list]
@@ -228,7 +228,7 @@
 || 1 persons listed!
 || ===================================================
 || Enter command: || [Command entered:  find Dickson]
-|| 	1. Charlie Dickson Email: charlie.d@nus.edu.sg Address: 333, gamma street Tags: [school][friends]
+|| 	1. Charlie Dickson Email: charlie.d@nus.edu.sg Birthday: 03031993 Address: 333, gamma street Tags: [school][friends]
 || 	2. Dickson Ee Phone: 444444 Birthday: 04041994 Address: 444, delta street Tags: [friends]
 || 
 || 2 persons listed!
