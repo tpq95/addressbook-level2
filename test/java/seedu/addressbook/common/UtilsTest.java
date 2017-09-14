@@ -21,7 +21,7 @@ public class UtilsTest {
         assertNoNull(1);
 
         // have null
-        assertHaveNull(null);
+        assertHaveNull(1, null);
         assertHaveNull("1", "2", null);
         assertHaveNull(null, null, null);
 
