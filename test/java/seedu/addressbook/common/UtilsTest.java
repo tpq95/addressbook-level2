@@ -11,7 +11,7 @@ import org.junit.Test;
 public class UtilsTest {
 
     @Test
-    public boolean isAnyNull() throws Exception {
+    public void isAnyNull() throws Exception {
         // empty list
         assertNoNull();
 
@@ -24,7 +24,6 @@ public class UtilsTest {
         assertHaveNull(1, null);
         assertHaveNull("1", "2", null);
         assertHaveNull(null, null, null);
-
     }
     private void assertNoNull(Object... objects) {
         assertFalse(Utils.isAnyNull(Arrays.asList(objects)));
