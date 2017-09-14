@@ -55,25 +55,25 @@
 || Enter command: || [Command entered:  add Valid Name 12345 e/valid@email.butNoPhonePrefix b/01011991 a/valid, address]
 || Invalid command format! 
 || add: Adds a person to the address book. Contact details can be marked private by prepending 'p' to the prefix.
-|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]a/ADDRESS  [t/TAG]...
+|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]b/BIRTHDAY [p]a/ADDRESS  [t/TAG]...
 || Example: add John Doe p/98765432 e/johnd@gmail.com b/01011990 a/311, Clementi Ave 2, #02-25 t/friends t/owesMoney
 || ===================================================
 || Enter command: || [Command entered:  add Valid Name p/12345 valid@email.butNoPrefix b/01011991 a/valid, address]
 || Invalid command format! 
 || add: Adds a person to the address book. Contact details can be marked private by prepending 'p' to the prefix.
-|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]a/ADDRESS  [t/TAG]...
+|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]b/BIRTHDAY [p]a/ADDRESS  [t/TAG]...
 || Example: add John Doe p/98765432 e/johnd@gmail.com b/01011990 a/311, Clementi Ave 2, #02-25 t/friends t/owesMoney
 || ===================================================
-|| Enter command: || [Command entered:  add Valid Name 12345 e/valid@email.butNoBirthdayPrefix 01011991 a/valid, address]
+|| Enter command: || [Command entered:  add Valid Name p/12345 e/valid@email.butNoBirthdayPrefix 01011991 a/valid, address]
 || Invalid command format!
 || add: Adds a person to the address book. Contact details can be marked private by prepending 'p' to the prefix.
-|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]a/ADDRESS  [t/TAG]...
+|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]BIRTHDAY [p]a/ADDRESS  [t/TAG]...
 || Example: add John Doe p/98765432 e/johnd@gmail.com b/01011990 a/311, Clementi Ave 2, #02-25 t/friends t/owesMoney
 || ===================================================
 || Enter command: || [Command entered:  add Valid Name p/12345 e/valid@email.butNoAddressPrefix b/01011991 valid, address]
 || Invalid command format! 
 || add: Adds a person to the address book. Contact details can be marked private by prepending 'p' to the prefix.
-|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]a/ADDRESS  [t/TAG]...
+|| Parameters: NAME [p]p/PHONE [p]e/EMAIL [p]BIRTHDAY [p]a/ADDRESS  [t/TAG]...
 || Example: add John Doe p/98765432 e/johnd@gmail.com b/01011990 a/311, Clementi Ave 2, #02-25 t/friends t/owesMoney
 || ===================================================
 || Enter command: || [Command entered:  add Valid Name p/12345 e/valid@email.butNoTagPrefix b/01011991 a/valid, address t/goodTag noPrefixTag]
