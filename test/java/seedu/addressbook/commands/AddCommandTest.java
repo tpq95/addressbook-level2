@@ -77,7 +77,7 @@ public class AddCommandTest {
 
     @Test
     public void addCommand_invalidTags_throwsException() {
-        final String[][] invalidTags = { { "" }, { " " }, { "'" }, {" "}, { "[]\\[;]" }, { "validTag", "" },
+        final String[][] invalidTags = { { "" }, { " " }, { "'" }, { "[]\\[;]" }, { "validTag", "" },
                                          { "", " " } };
         for (String[] tags : invalidTags) {
             Set<String> tagsToAdd = new HashSet<>(Arrays.asList(tags));
